@@ -70,7 +70,6 @@ const performWebObservation = async (url?: string, instruction?: string) => {
     }
   } catch (error: any) {
     const errorMessage = error instanceof Error ? error.message : String(error);
-    console.error(`Full stack trace for observation error:`, error);
     throw new Error(`Stagehand observation failed: ${errorMessage}`);
   }
 };
