@@ -71,11 +71,7 @@ This will start the Mastra development server, giving you access to the integrat
    - `stagehandExtractTool`: Extracts data from web pages
 
 3. **Web Agent**
-<<<<<<< HEAD
    - AI-powered agent using Groq's model
-=======
-   - AI-powered agent using Groq's GPT-4
->>>>>>> 9fff50a8e072033ccbeccb7433d55221ce74dd4d
    - Provides natural language interface to web automation
    - Integrates all tools into a unified experience
 
