@@ -71,11 +71,7 @@ This will start the Mastra development server, giving you access to the integrat
    - `stagehandExtractTool`: Extracts data from web pages
 
 3. **Web Agent**
-<<<<<<< HEAD
    - AI-powered agent using Google's model
-=======
-   - AI-powered agent using Google's GPT-4
->>>>>>> 2c82aba19d2ba98ebc2dcaac4fce24b35dae9367
    - Provides natural language interface to web automation
    - Integrates all tools into a unified experience
 
