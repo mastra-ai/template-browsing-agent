@@ -13,7 +13,7 @@ This project enables AI agents to interact with web pages through the Mastra fra
 - **Action Execution**: Perform actions like clicking buttons or filling forms
 - **Data Extraction**: Extract structured data from web pages
 - **Session Management**: Smart session handling with automatic timeouts and reconnection
-- **AI-Powered Interactions**: Leverage OpenAI models for intelligent web interactions
+- **AI-Powered Interactions**: Leverage Google models for intelligent web interactions
 
 ## Installation
 
@@ -22,7 +22,7 @@ This project enables AI agents to interact with web pages through the Mastra fra
 - Node.js (v20+)
 - pnpm
 - Browserbase account
-- OpenAI API access
+- Google API access
 
 ### Setup
 
@@ -43,7 +43,7 @@ This project enables AI agents to interact with web pages through the Mastra fra
    ```
    BROWSERBASE_PROJECT_ID=your_project_id
    BROWSERBASE_API_KEY=your_api_key
-   OPENAI_API_KEY=your_openai_key
+   GOOGLE_GENERATIVE_AI_API_KEY=your_openai_key
    ```
 
 ## Usage
@@ -71,7 +71,11 @@ This will start the Mastra development server, giving you access to the integrat
    - `stagehandExtractTool`: Extracts data from web pages
 
 3. **Web Agent**
-   - AI-powered agent using OpenAI's model
+<<<<<<< HEAD
+   - AI-powered agent using Google's model
+=======
+   - AI-powered agent using Google's GPT-4
+>>>>>>> 2c82aba19d2ba98ebc2dcaac4fce24b35dae9367
    - Provides natural language interface to web automation
    - Integrates all tools into a unified experience
 
@@ -91,4 +95,4 @@ This project is built with:
 
 - [Mastra](https://mastra.ai) - AI Agent framework
 - [Stagehand by Browserbase](https:/stagehand.dev) - Browser automation
-- [OpenAI](https://openai.com/) - AI models
+- [Google](https://openai.com/) - AI models
