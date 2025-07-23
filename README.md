@@ -71,11 +71,7 @@ This will start the Mastra development server, giving you access to the integrat
    - `stagehandExtractTool`: Extracts data from web pages
 
 3. **Web Agent**
-<<<<<<< HEAD
    - AI-powered agent using Anthropic's model
-=======
-   - AI-powered agent using Anthropic's GPT-4
->>>>>>> 52432aca753c7830fe41d3d0cff59c34aa672ce6
    - Provides natural language interface to web automation
    - Integrates all tools into a unified experience
 
