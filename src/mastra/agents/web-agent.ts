@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { google } from '@ai-sdk/google';
 import { Agent } from '@mastra/core/agent';
 import { Memory } from '@mastra/memory';
 import { pageActTool } from '../tools/page-act-tool';
@@ -29,7 +29,7 @@ export const webAgent = new Agent({
       Use the pageExtractTool to extract data from webpages.
       Use the pageNavigateTool to navigate to a URL.
 `,
-  model: openai('gpt-4o'),
+  model: google(process.env.MODEL ?? "gemini-2.5-pro"),
   tools: { pageActTool, pageObserveTool, pageExtractTool, pageNavigateTool },
   memory: memory,
 });
