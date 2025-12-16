@@ -15,17 +15,17 @@ export const pageExtractTool = createTool({
       .describe('Set true for larger-scale extractions, false for small extractions'),
   }),
   outputSchema: z.any().describe('Extracted data according to schema'),
-  execute: async input => {
+  execute: async ({ context }) => {
     // Create a default schema if none is provided
     const defaultSchema = {
       content: z.string(),
     };
 
     return await performWebExtraction(
-      input.url,
-      input.instruction,
-      input.schema || defaultSchema,
-      input.useTextExtract,
+      context.url,
+      context.instruction,
+      context.schema || defaultSchema,
+      context.useTextExtract,
     );
   },
 });
